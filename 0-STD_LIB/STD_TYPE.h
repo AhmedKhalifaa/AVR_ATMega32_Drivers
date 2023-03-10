@@ -23,8 +23,5 @@ typedef enum{
 	True
 }bool;
 
-//Mask Macro
-#define MASK(X) 1<<X
-
 
 #endif
