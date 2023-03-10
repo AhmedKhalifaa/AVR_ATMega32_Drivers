@@ -8,6 +8,9 @@
 #ifndef BIT_MATH_H_
 #define BIT_MATH_H_
 
+/*Mask Macro*/
+#define MASK(X) 1<<X
+
 /*Bit Manipulation Macros*/
 #define SET_BIT(REG,BIT) REG|=MASK(BIT)
 #define CLR_BIT(REG,BIT) REG&=~MASK(BIT)
