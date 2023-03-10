@@ -17,4 +17,5 @@
 #define TOG_BIT(REG,BIT) REG^=MASK(BIT)
 #define GET_BIT(REG,BIT) ((REG>>BIT)&1)
 
+
 #endif /* BIT_MATH_H_ */
